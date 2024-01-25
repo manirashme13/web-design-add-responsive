@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.nav{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #050948;
+    width: 100%;
+    height: 4rem;
+    color: white;
+}
+.icon-nav{
+    font-size: 1.4rem;
+    padding-left: 1rem;
+
+}
+.icon-serech{
+    padding-right: 1rem;
+    font-size: 1.4rem;
+}
+.item-nav{
+   display: flex;
+   flex-direction: row;
+    gap: 1rem;
+    position: absolute;
+    margin-left: 4rem;
+}
+.color-home-nav-item{
+    color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 3rem;
+}
+.icon-user{
+    display: flex;
+    flex-direction: row; 
+    padding: 1rem;
+    gap: 1rem;
+}
+.Subhead-postcard{
+    color: gray;
+    font-size: 0.7rem;
+}
+.title-postcard{
+    display: flex;
+    flex-direction: column;
+}
+.postcard{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(209, 208, 208);
+    width: 18rem;
+    height: 21rem;
+}
+.text-under-image{
+    padding-left: 0.5rem;
+}
+.button-action{
+    color: gray;
+    display: flex;
+    font-size: 0.7rem;
+    gap: 1rem;
+    padding-top: 2rem;
+    padding-left: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+.postcard-Permissions{
+    display: flex;
+    flex-direction: column;
+    width: 56rem;
+    height: 11rem;
+    border: 1px solid rgb(209, 208, 208);
+}
+.Permissions-text{  
+    color: gray;
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+.Permissions-title{
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.button-info-permissions{
+    display: flex;
+    flex-direction: row ;
+    gap: 1rem;
+    color: #04988a;
+    font-size: 0.8rem;
+    padding-top: 3rem;
+    padding-right: 1rem;
+    justify-content: end;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: 1rem;
+}
+.postcard-footer-lorem{
+    display: flex;
+    flex-direction:row;
+    width: 40rem;
+    height: 10rem;
+    border: solid 1px rgb(209, 208, 208);
+}
+.text-footer{
+    color: gray;
+    padding-left: 1rem;
+    max-width: 19rem;
+    font-size: 0.9rem;
+}
+.footer-title-big-box{
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+.yellow-box-footer-big{
+    width: 18rem;
+    height: 7rem;
+    margin-top: 1rem;
+    margin-left: 1.7rem;
+    background-color: #ffbd00;
+}
+.button-action-footer{
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 0.7rem;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+}
+.postcard-footer-box{
+    display: flex;
+    flex-direction: row;
+    width: 15rem;
+    height: 10rem;
+    border: solid 1px rgb(209, 208, 208);
+}
+.yellow-box-footer-small{
+    width: 7rem;
+    height: 7rem;
+    background-color: #ffbd00;
+    margin-top: 0.7rem;
+    margin-right: 0.7rem;
+}
+.button-action-footer-small{
+    color: gray;
+    font-size: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-top: 5rem;
+    padding-left: 0.5rem;
+}
+.footer-title-small-box{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 1.4rem;
+}
+.footer-under-title-small{
+    color: gray;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    .item-nav{
+        margin-top: 0.4rem;
+    }
+    .postcard-768{
+        display: flex;
+        flex-direction: column;
+        width: 37rem;
+        height: 9.5rem;
+    }
+    .text-under-image{
+        max-width: 20rem;
+    }
+    .image-postcard{
+       position: absolute;
+        width: 17rem;
+        height: 10rem;
+        margin-left: 20rem;
+    
+    }
+    .postcard-Permissions{
+        width: 37rem;
+    }
+    .button-info-permissions{
+      margin-left: 1rem;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .postcard-footer-lorem{
+        width: 37rem;
+        height: 11rem;
+    } 
+    .button-action-footer{
+        padding-top: 2rem;
+    }
+    .yellow-box-footer-big{
+        width: 18rem;
+        height: 8rem;
+        margin-right: 1rem;
+    }
+    .postcard-footer-box{
+        width: 37rem;
+        height: 11rem;
+    }
+    .yellow-box-footer-small{
+        width: 16.5rem;
+        height: 8rem;
+        margin-left: 11.2rem;
+    }
+    .button-action-footer-small{
+        padding-top: 6rem;
+        margin-left: 1.1rem;
+    }
+}
+
+
+
+@media (max-width:600px) {
+        .item-nav{
+            display: none;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .postcard-768{
+            width: 18rem;
+            height: 21rem;
+        }
+        .image-postcard{
+            position: relative;
+            align-self: flex-end;
+            width: 17.9rem;
+        }
+        .postcard-Permissions{
+            width: 18rem;
+            height:17rem ;
+        }
+        .postcard-footer-lorem{
+            display: flex;
+            flex-direction: column;
+            width: 18rem;
+            height: 20rem;
+        }
+        .text-footer{
+            max-width: 17rem;
+        }
+        .button-action-footer{
+            position: absolute;
+            margin-top: 8rem;
+        }
+        .yellow-box-footer-big{
+            width: 14rem;
+        }
+        .postcard-footer-box{
+            display: flex;
+            flex-direction: column;
+            width: 18rem;
+            height: 15rem;
+        }
+        .yellow-box-footer-small{
+            position: relative;
+            align-self: flex-end;
+            width: 15rem;
+            height: 8rem;
+            margin-right: 1.5rem;
+        
+        }
+        .button-action-footer-small{
+            position: absolute;
+            margin-top: 4rem;
+            font-size: 0.7rem;
+        }
+}
